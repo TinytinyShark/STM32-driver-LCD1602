@@ -85,15 +85,15 @@ void WriteD0_7(uint8_t data){
 	HAL_GPIO_WritePin(D6_GPIO_Port, D6_Pin, (GPIO_PinState)((data & 0x40)!=0));
 	HAL_GPIO_WritePin(D7_GPIO_Port, D7_Pin, (GPIO_PinState)((data & 0x80)!=0));
 	
-	printf("%d",HAL_GPIO_ReadPin(D7_GPIO_Port, D7_Pin));
-	printf("%d",HAL_GPIO_ReadPin(D6_GPIO_Port, D6_Pin));
-	printf("%d",HAL_GPIO_ReadPin(D5_GPIO_Port, D5_Pin));
-	printf("%d",HAL_GPIO_ReadPin(D4_GPIO_Port, D4_Pin));
-	printf("%d",HAL_GPIO_ReadPin(D3_GPIO_Port, D3_Pin));
-	printf("%d",HAL_GPIO_ReadPin(D2_GPIO_Port, D2_Pin));
-	printf("%d",HAL_GPIO_ReadPin(D1_GPIO_Port, D1_Pin));
-	printf("%d",HAL_GPIO_ReadPin(D0_GPIO_Port, D0_Pin));
-	printf("\n");
+	//printf("%d",HAL_GPIO_ReadPin(D7_GPIO_Port, D7_Pin));
+	//printf("%d",HAL_GPIO_ReadPin(D6_GPIO_Port, D6_Pin));
+	//printf("%d",HAL_GPIO_ReadPin(D5_GPIO_Port, D5_Pin));
+	//printf("%d",HAL_GPIO_ReadPin(D4_GPIO_Port, D4_Pin));
+	//printf("%d",HAL_GPIO_ReadPin(D3_GPIO_Port, D3_Pin));
+	//printf("%d",HAL_GPIO_ReadPin(D2_GPIO_Port, D2_Pin));
+	//printf("%d",HAL_GPIO_ReadPin(D1_GPIO_Port, D1_Pin));
+	//printf("%d",HAL_GPIO_ReadPin(D0_GPIO_Port, D0_Pin));
+	//printf("\n");
 }
 
 
